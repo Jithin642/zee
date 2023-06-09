@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <title>Jithin site</title>
+  </head>
+  <body style="margin: 10px; border: 5px solid coral; padding-bottom: 10px">
+    <h1 style="text-align: center">Welcome</h1>
+    <hr size="6" color="black" />
+    <p style="padding-left: 10px; font-weight: bold">
+      Please fill the following details
+    </p>
+    <form action="https://httpbin.org/anything" method="post">
+      <div style="padding: 10px">
+        <label
+          >Enter Name:
+          <input placeholder="Enter Name" type="text" name="firstName" required
+        /></label>
+      </div>
+      <div style="padding: 10px">
+        <label
+          >Father's Name:
+          <input placeholder="" type="text" name="FatherName" required
+        /></label>
+      </div>
+      <div style="padding: 10px">
+        <label
+          >Mother's Name
+          <input placeholder="" type="text" name="motherName" required
+        /></label>
+      </div>
+      <div style="padding: 10px">
+        <label
+          >Phone Number
+          <input
+            placeholder="Enter Date of Birth"
+            type="tel"
+            name="contactNumber"
+            required
+          />
+        </label>
+      </div>
+      <div style="padding: 10px">
+        <label
+          >Email
+          <input placeholder="sample@example.com" />
+        </label>
+      </div>
+      <div style="padding: 10px">
+        <div>
+          <label
+            >Gender: <input name="gender" type="radio" />Male
+            <input name="gender" type="radio" />Female
+            <input name="gender" type="radio" />Other
+          </label>
+        </div>
+      </div>
+      <div style="padding: 10px">
+        <label
+          >Date Of Birth
+          <input placeholder="" type="date" name="dob" required />
+        </label>
+      </div>
+      <div style="padding: 10px">
+        <label
+          >Address
+          <input placeholder="Street  House  Road" />
+        </label>
+      </div>
+      <div style="padding: 10px">
+        <label for="bloodGroup">Blood Group:</label>
+        <select name="bg" id="bg">
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="AB-">AB-</option>
+          <option value="AB+">AB+</option>
+        </select>
+      </div>
+      <div style="padding: 10px">
+        <label
+          >Department: <input type="radio" value="CSE" name="Department" />CSE
+          <input type="radio" value="EEE" name="Department" />EEE
+          <input type="radio" value="BBA" name="Department" />BBA
+        </label>
+      </div>
+      <div style="padding: 10px">
+        <label
+          >Course: <input type="checkbox" value="C" name="Course" />C
+          <input type="checkbox" value="C+" name="Course" />C+
+          <input type="checkbox" value="Java" name="Course" />Java
+          <input type="checkbox" value="AI" name="Course" />AI
+          <input
+            type="checkbox"
+            value="Machine Learning"
+            name="Course"
+          />Machine Learning
+          <input type="checkbox" value="Robotics" name="Course" />Robotics
+        </label>
+      </div>
+      <div style="padding: 10px">
+        <label>
+            Photo <input placeholder="" type="file" name="photo" required />
+        </label>
+      </div>
+
+      <div style="padding-left: 10px">
+        <input
+          type="button"
+          value="submit"
+          style="width: 100px; background-color: #90ee90"
+        />
+      </div>
+    </form>
+  </body>
+</html>
