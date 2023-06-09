@@ -1,2 +1,2 @@
-let animal = "Tiger"
+let animal = "lion";
 console.log(animal);
